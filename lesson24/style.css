@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Rubik+Mono+One&display=swap');
+/* Доступные шрифты "Jura", "Rubik Mono One" */
+*{
+    font-family: "Rubik Mono One", sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 50px;
+}
+img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* Цвет нужен только по началу. Как появятся картинки удалить это свойство */
+    background-color: aquamarine;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 50px 0;
+}
+
+.pic1{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.pic1:hover{
+    transform: rotate(0deg);
+}
+
+.pic3{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg) scale(0.90);
+
+}
+
+.pic3:hover{
+    transform: rotate(0deg) scale(1.20);
+}
+
+.pic2{
+    transition: all 0.3s ease-in-out;
+}
+
+.pic2:hover{
+    transform: perspective(600px) rotateX(35deg);
+}
+
+.pic4{
+    transition: all 0.3s ease-in-out;
+}
+
+.pic4:hover{
+    transform: perspective(600px) rotateY(35deg);
+}
+
+.pic5{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg) scale(0.50);
+
+}
+
+.pic5:hover{
+    transform: rotate(0deg) scale(2.00);
+}
+
+.pic6{
+    transition: all 0.3s ease-in-out;
+}
+
+.pic6:hover{
+    transform: perspective(600px) rotateY(-35deg);
+}

@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url(https://img.freepik.com/free-vector/blue-and-purple-floral-pattern_1017-5170.jpg?w=740&t=st=1709224002~exp=1709224602~hmac=60bdb3b28c6a6b27582418db25d37f595a93f117fc236f69bcb356765f0f8504) ;
+}
+
+.container{
+    width: 80%;
+    background-color: aquamarine;
+    font-family: "Ralewey";
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 330px;
+    margin: auto;
+}
+
+.fot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 15px 0px ;
+}
+
+select{
+    width: 300px;
+    height: 30px;
+    margin: 15px 0px ;
+}
+
+textarea{
+    margin: 15px 0px ;
+}
+
